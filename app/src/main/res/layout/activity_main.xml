@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.u2edittext_05_02.MainActivity">
+
+
+    <EditText
+        android:id="@+id/etnombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColorHighlight="@color/colorPrimaryDark"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/etapellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Apellido" />
+
+    <Button
+        android:id="@+id/btnconfirmar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="obtenerNombreCompleto"
+        android:text="Button" />
+
+    <EditText
+        android:id="@+id/etnombrecompleto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nombre Completo" />
+</LinearLayout>
